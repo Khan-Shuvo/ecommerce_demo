@@ -1,11 +1,14 @@
 import React from 'react'
-import TopHeader from '../components/navigatiion/TopHeader'
 import Hero from '../components/home/Hero'
+import HomeCategory from '../components/home/HomeCategory'
+import PopulerProducts from '../components/home/PopulerProducts'
 
 export default function Home() {
   return (
     <div>
         <Hero/>
+        <HomeCategory/>
+        <PopulerProducts/>
     </div>
   )
 }
