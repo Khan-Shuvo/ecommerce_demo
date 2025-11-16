@@ -5,6 +5,7 @@ import Navbar from "./components/navigatiion/Navbar";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import { Toaster } from "react-hot-toast";
+import Footer from "./components/navigatiion/Footer";
 
 function App() {
   return (
@@ -23,6 +24,8 @@ function App() {
         <Route path="/shop-now" element={<h1>Shop Now</h1>} />
         <Route path="/login" element={<Login/>} />
       </Routes>
+
+      <Footer/>
 
     </Router>
   );
